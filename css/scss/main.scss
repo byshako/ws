@@ -2,7 +2,7 @@ body {
   color: $text-color;
 }
 
-.nav{
+.nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,11 +14,9 @@ body {
 .section {
   display: flex;
   align-items: center;
-  .fp-tableCell{
-    height: auto !important;
-  }
-  &-1{background: #0c5460}
-  &-2{background: #e0a800}
-  &-3{background: #e4606d}
-  &-4{background: #218838}
+  .fp-tableCell {height: auto !important;}
+  &-1 {background: #0c5460}
+  &-2 {background: #e0a800}
+  &-3 {background: #e4606d}
+  &-4 {background: #218838}
 }
